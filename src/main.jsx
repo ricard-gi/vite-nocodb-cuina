@@ -12,8 +12,7 @@ import NotFound from './NotFound.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-   <BrowserRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Llista />} />
@@ -23,6 +22,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         </Route>
       </Routes>
     </BrowserRouter>
-
-  </React.StrictMode>,
 )

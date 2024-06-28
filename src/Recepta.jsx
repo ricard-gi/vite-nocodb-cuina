@@ -37,7 +37,6 @@ function Recepta() {
         )
     }
 
-
     return (
         <>
             <h1>Recepta</h1>
@@ -61,11 +60,6 @@ function Recepta() {
                     </Card>
                 </Col>
             </Row>
-
-
-
-
-
         </>
     )
 }
